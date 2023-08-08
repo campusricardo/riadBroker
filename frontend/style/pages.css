@@ -1,0 +1,23 @@
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: top;
+}
+
+nav ul li {
+    margin: 2rem;
+    list-style: none;
+    padding: 1rem;
+    background-color: #2B2D31;
+    border-radius: 0.4rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+}

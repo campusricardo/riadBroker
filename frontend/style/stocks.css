@@ -1,0 +1,19 @@
+.stocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.button-trade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-trade a {
+    width: 100%;
+    height: 100%;
+}
+

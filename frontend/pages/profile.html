@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../img/img.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/pages.css">
+  <title>RiadBroker</title>
+</head>
+<body>
+    <header>
+      <div class="div-title">
+      <h1>RiadBroker  </h1>
+      
+      <figure>
+      <img src="../img/money.svg" alt="green dolar for the logo">
+    </figure>
+  </div>
+
+      <nav> <ul>
+        <li><img src="../img/dashboard.svg" alt=""><a href="./dashboard.html"  rel="noopener noreferrer"> DASHBOARD</a></li>
+        <li><img src="../img/trade.svg" alt=""><a href="./trades.html"  rel="noopener noreferrer"> TRADES</a></li>
+        <li><img src="../img/stock.svg" alt=""> <a href="./stocks.html"  rel="noopener noreferrer"> STOCKS</a></li>
+        <li><img src="../img/username.svg" alt="">  <a href="./profile.html"  rel="noopener noreferrer"> PROFILE</a></li>
+        <li onclick="removeToken()"> <a href="../index.html"  rel="noopener noreferrer"> <img src="../img/logout.svg" alt=""> </a></li>
+      </ul></nav>
+      
+    </header>
+  <main>
+
+    <article>
+      <div class="btn btn-secondary btn-sm"></div>
+      <section class="pie">
+      <div id="pie-chart" style="height: 100%">
+
+      </section>
+      </div>
+    </article>
+  </main>
+
+
+  <footer>
+
+  </footer>
+  <script src="../js/verifytoken.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

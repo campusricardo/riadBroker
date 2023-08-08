@@ -1,0 +1,15 @@
+
+
+
+.start-playing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.description p {
+    font-size: large;
+}
