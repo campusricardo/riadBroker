@@ -31,6 +31,7 @@ class Server {
         this.app.use(this.api, require('../routes/verifytoken.routes.js'));
         this.app.use(this.api, require('../routes/assets.routes.js'));
         this.app.use(this.api, require('../routes/trade.routes.js'));
+        this.app.use(this.api, require('../routes/trades.ruotes.js'));
 
     }
 

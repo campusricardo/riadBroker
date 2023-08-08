@@ -54,6 +54,7 @@ const getBTC = async() => {
         const moneytoBuy = Number(buy.value);
     getDataPriceForBuy(moneytoBuy, usd,BTC);
 
+
     } else {
         alert('insufficient funds OR Negative Number');
         window.location.reload();
@@ -82,7 +83,7 @@ const BuyBTCApi = async(amountBTC,moneyxd, priceBTC,usd, BTC) => {
         amount: BTC + amountBTC,
         money: usd - Number(buy.value),
         price: priceBTC,
-        type: true
+        type: true,
     }
     console.log(data);
     const fetchBuyBTC = await fetch(buyBTCx,{
@@ -152,5 +153,8 @@ const SellBTCApi = async(btcToSell, usd, BTC, amountUSD, priceBTC) => {
     });
 
     const datatoUpload = await fetchSellBTC.json();
+
+    window.location.reload();
+    
 
 }
